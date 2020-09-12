@@ -5,7 +5,7 @@ import json
 
 
 if not baseURL or not login or not password or not project:
-    input("Не все данные были введены. Запустите заного!")
+    input("Не все данные были введены. Запустите заново!")
     exit()
 
 jira = JIRA(
